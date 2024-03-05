@@ -1,4 +1,3 @@
-
 import os
 from pathlib import Path
 
@@ -8,7 +7,7 @@ list_of_files = [
 
     f"{project_name}/__init__.py",
     f"{project_name}/components/__init__.py",
-    f"{project_name}/components/data_ingestion.py",
+    f"{project_name}/components/data_ingestion.py",  
     f"{project_name}/components/data_validation.py",
     f"{project_name}/components/data_transformation.py",
     f"{project_name}/components/model_trainer.py",
@@ -34,7 +33,6 @@ list_of_files = [
     "setup.py",
     "config/model.yaml",
     "config/schema.yaml",
-    "test.py"
 
 
 ]
