@@ -8,12 +8,12 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 from neuro_mf  import ModelFactory
 
-from us_visa.exception import USvisaException
-from us_visa.logger import logging
-from us_visa.utils.main_utils import load_numpy_array_data, read_yaml_file, load_object, save_object
-from us_visa.entity.config_entity import ModelTrainerConfig
-from us_visa.entity.artifact_entity import DataTransformationArtifact, ModelTrainerArtifact, ClassificationMetricArtifact
-from us_visa.entity.estimator import USvisaModel
+from us_visa_project.exception import USvisaException
+from us_visa_project.logger import logging
+from us_visa_project.utils.main_utils import load_numpy_array_data, read_yaml_file, load_object, save_object
+from us_visa_project.entity.config_entity import ModelTrainerConfig
+from us_visa_project.entity.artifact_entity import DataTransformationArtifact, ModelTrainerArtifact, ClassificationMetricArtifact
+from us_visa_project.entity.estimator import USvisaModel
 
 class ModelTrainer:
     def __init__(self, data_transformation_artifact: DataTransformationArtifact,

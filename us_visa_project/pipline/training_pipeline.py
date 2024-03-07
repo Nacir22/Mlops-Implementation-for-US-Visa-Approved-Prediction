@@ -1,15 +1,15 @@
 import sys
-from us_visa.exception import USvisaException
-from us_visa.logger import logging
+from us_visa_project.exception import USvisaException
+from us_visa_project.logger import logging
 
-from us_visa.components.data_ingestion import DataIngestion
-from us_visa.components.data_validation import DataValidation
-from us_visa.components.data_transformation import DataTransformation
-from us_visa.components.model_trainer import ModelTrainer
-from us_visa.components.model_evaluation import ModelEvaluation
-from us_visa.components.model_pusher import ModelPusher
+from us_visa_project.components.data_ingestion import DataIngestion
+from us_visa_project.components.data_validation import DataValidation
+from us_visa_project.components.data_transformation import DataTransformation
+from us_visa_project.components.model_trainer import ModelTrainer
+from us_visa_project.components.model_evaluation import ModelEvaluation
+from us_visa_project.components.model_pusher import ModelPusher
 
-from us_visa.entity.config_entity import (DataIngestionConfig,
+from us_visa_project.entity.config_entity import (DataIngestionConfig,
                                           DataValidationConfig,
                                           DataTransformationConfig,
                                           ModelTrainerConfig,
@@ -17,7 +17,7 @@ from us_visa.entity.config_entity import (DataIngestionConfig,
                                           ModelPusherConfig)
                                           
 
-from us_visa.entity.artifact_entity import (DataIngestionArtifact,
+from us_visa_project.entity.artifact_entity import (DataIngestionArtifact,
                                             DataValidationArtifact,
                                             DataTransformationArtifact,
                                             ModelTrainerArtifact,

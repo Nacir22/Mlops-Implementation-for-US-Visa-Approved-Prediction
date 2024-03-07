@@ -1,4 +1,4 @@
-from us_visa.pipline.training_pipeline import TrainPipeline
+from us_visa_project.pipline.training_pipeline import TrainPipeline
 
 
 pipline  = TrainPipeline()
