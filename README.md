@@ -1,4 +1,4 @@
-# US-Visa-Approval-Prediction
+# Mlops-Implementation-for-US-Visa-Approved-Prediction
 
 ## Live matarials docs
 
